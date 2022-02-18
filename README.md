@@ -5,3 +5,11 @@ Laravel akan dijadikan sebagai restAPI yang nantinya akan dihubungkan dengan rea
 Untuk plugin yang dipakai sbb:
 
 -   JWT Token
+-
+-   -OnGoing
+
+## Proses
+
+-   Menghubungkan ke Mysql dengan `php artisan migrate`
+-   MEnginstall JWT Token
+-   Konfigurasi JWT Token
