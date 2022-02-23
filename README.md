@@ -1,4 +1,4 @@
-## Milestone backend mwnggunakan laravel 8 dan JWT
+## Milestone backend menggunakan laravel 8 dan JWT
 
 Laravel akan dijadikan sebagai restAPI yang nantinya akan dihubungkan dengan react js dibagian frontend nya.
 
@@ -23,5 +23,8 @@ Untuk plugin yang dipakai sbb:
 
 ## Testing API mwnggunakan Postman
 
--   `POSTS` http://localhost:8000/api/register
-    -   | Body : `key` `(name, email, password, password_confirmation)`, `vale` `(nana, nana@gmail.com, password123, password123)`.
+-   `POST` http://localhost:8000/api/register
+    -   Body : `key` `(name, email, password, password_confirmation)`, `vale` `(nana, nana@gmail.com, password123, password123)`.
+-   `POST` `http://localhost:8000/api/login`
+    -   Body : `key` `email, password`, `value` `(nana@gmail.com, password123)`.
+-   `GET`
