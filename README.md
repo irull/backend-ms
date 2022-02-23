@@ -28,6 +28,6 @@ Untuk plugin yang dipakai sbb:
 -   `POST` `http://localhost:8000/api/login`
     -   Body : `KEY` `email, password`, `VALUE` `(nana@gmail.com, password123)`.
 -   `GET` `http://localhost:8000/api/user`
--   Header:
-    -   `KEY` : `Accept, Content-Type, Authorization`,
-    -   `VALUE` : `Application/json, application/json, Bearer <spasi> {isi token}`
+-   Header: `KEY` : `Accept, Content-Type, Authorization`, `VALUE` : `Application/json, application/json, Bearer <spasi> {isi token}`.
+    `POST` `http://localhost:8000/api/logout`
+-   Header: `KEY` : `Accept, Content-Type, Authorization`, `VALUE` : `Application/json, application/json, Bearer <spasi> {isi token}`.
