@@ -24,10 +24,10 @@ Untuk plugin yang dipakai sbb:
 ## Testing API mwnggunakan Postman
 
 -   `POST` `http://localhost:8000/api/register`
-    -   Body : `KEY` `(name, email, password, password_confirmation)`, `VALUE` `(nana, nana@gmail.com, password123, password123)`.
+    -   Body : `KEY` (name, email, password, password_confirmation), `VALUE` (nana, nana@gmail.com, password123, password123).
 -   `POST` `http://localhost:8000/api/login`
-    -   Body : `KEY` `email, password`, `VALUE` `(nana@gmail.com, password123)`.
+    -   Body : `KEY` email, password, `VALUE` (nana@gmail.com, password123).
 -   `GET` `http://localhost:8000/api/user`
--   Header: `KEY` : `Accept, Content-Type, Authorization`, `VALUE` : `Application/json, application/json, Bearer <spasi> {isi token}`.
+-   Header: `KEY` : Accept, Content-Type, Authorization, `VALUE` : Application/json, application/json, Bearer `<spasi>` {isi token}.
     `POST` `http://localhost:8000/api/logout`
--   Header: `KEY` : `Accept, Content-Type, Authorization`, `VALUE` : `Application/json, application/json, Bearer <spasi> {isi token}`.
+-   Header: `KEY` : Accept, Content-Type, Authorization, `VALUE` : Application/json, application/json, Bearer `<spasi>` {isi token}.
